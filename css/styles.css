@@ -108,9 +108,11 @@ h1,h2,h3,h4 {
     color: var(--clr-primary);
     background: var(--clr-primary-light);
 }
-.clearfix::after, .clearfix::before {
+.clearfix::after, 
+.clearfix::before {
     content: '';
     clear: both;
+    display: table;
 }
 .section-title h3 {
     font-family: var(--ff-secondary);
@@ -156,8 +158,6 @@ Header
 .banner h3 {
     text-transform: uppercase;
     color: var(--clr-primary-light);
-    margin-top: -5rem;
-    margin-bottom: 5rem;
     padding-top: 1rem;
 }
 .banner h2 {
@@ -166,7 +166,7 @@ Header
     text-transform: uppercase;
     font-size: 1.65rem;
     font-weight: 700;
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     /* animation */
 }
@@ -391,7 +391,7 @@ glamorous collection
 .glamorous-icon {
     position: absolute;
     left: 50%;
-    bottom: 0%;
+    bottom: -1;
     font-size: 2rem;
     color: var(--clr-primary);
     background: var(--clr-primary-light);
