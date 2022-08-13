@@ -12,6 +12,24 @@
 </head>
 <body>
     <!-- navbar -->
+    <!-- nav button -->
+    <span class="nav-btn" id="nav-btn">
+        <i class="fa fa-bars"></i>
+    </span>
+    <nav class="navbar" id="navbar">
+        <div class="navbar-header">
+            <span class="nav-close" id="nav-close">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <ul class="nav-items">
+            <li><a href="index.html" class="nav-link">home</a></li>
+            <li><a href="skill.html" class="nav-link">academy</a></li>
+            <li><a href="about.html" class="nav-link">about</a></li>
+            <li><a href="gallery.html" class="nav-link">gallery</a></li>
+        </ul>
+    </nav>
+    <!-- end of navbar -->
     <!-- header -->
     <div class="header">
         <div class="banner">
@@ -83,7 +101,6 @@
     </div>
     </section>
     <!-- end of about -->
-
     <!-- collections -->
     <section class="collections" >
         <div class="section-center clearfix">
@@ -123,22 +140,22 @@
             <h4 class="collection-title">Thai design 2023</h4> 
         </div>
         <!-- end of single collection -->      
-    </article>
- </div>
-</section>
+     </article>
+   </div>
+  </section>
 <!-- end of collections -->
 <!-- Glamorous Collection -->
-<section class="glamorous">
+  <section class="glamorous">
 <!-- section title -->
-<div class="section-title glamorous-title">
-<h3>see more our</h3>
-<h2>glamorous collection</h2>
-</div>
+  <div class="section-title glamorous-title">
+    <h3>see more our</h3>
+   <h2>glamorous collection</h2>
+  </div>
 <!-- end of section title -->
-<div class="section-center clearfix"></div>
-</section>
+  <div class="section-center clearfix"></div>
+ </section>
 <!-- single card -->
-<article class="glamorous-card">
+ <article class="glamorous-card">
     <!-- img container -->
     <div class="glamorous-img-container">
         <!-- img -->
@@ -159,10 +176,10 @@
         </p>
         <a href="collection.html" class="btn glamorous-btn">see more</a>
     </div>
-</article>
+ </article>
 <!-- end of single card -->
 <!-- single card -->
-<article class="glamorous-card">
+ <article class="glamorous-card">
     <!-- img container -->
     <div class="glamorous-img-container">
         <!-- img -->
@@ -183,10 +200,10 @@
         </p>
         <a href="collection.html" class="btn glamorous-btn">see more</a>
     </div>
-</article>
+ </article>
 <!-- end of single card -->
 <!-- single card -->
-<article class="glamorous-card">
+ <article class="glamorous-card">
     <!-- img container -->
     <div class="glamorous-img-container">
         <!-- img -->
@@ -207,10 +224,108 @@
         </p>
         <a href="collection.html" class="btn glamorous-btn">see more</a>
     </div>
-</article>
-<!-- end of single card -->
+ </article>
+    <!-- end of single card -->
 <!-- End of Glamorous Collection -->
+<!-- contact section -->
+  <section class="contact">
+    <div class="section-center clearfix">
+        <!-- contact info -->
+        <article class="contact-info">
+            <!-- contact item -->
+            <div class="contact-item">
+                <h4 class="contact-title">
+                    <span class="contact-icon">
+                        <i class="fas fa-location-arrow"></i>
+                    </span>
+                    address
+                </h4>
+                <h4 class="contact-text">
+                548/1 Soi Lat Proa 34 <br />
+                Chan-Kasem, Chatuchak, Bangkok <br />
+                10900
+                </h4>
+            </div>
+            <!-- ending of contact item -->
+            <!-- contact item -->
+            <div class="contact-item">
+                <h4 class="contact-title">
+                    <span class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    email
+                </h4>
+                <h4 class="contact-text">
+                emotions_bkk@emotions.com 
+                </h4>
+            </div>
+            <!-- ending of contact item -->
+            <!-- contact item -->
+            <div class="contact-item">
+                <h4 class="contact-title">
+                    <span class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </span>
+                    telephone
+                </h4>
+                <h4 class="contact-text">
+                + 66 2 938 2671
+                </h4>
+            </div>
+            <!-- ending of contact item -->
+        </article>
+        <!-- contact form -->
+        <article class="contact-form">
+            <h3>contact us</h3>
+            <form>
+                <div class="form-group">
+                    <!-- inputs -->
+                <input type="text" 
+                placeholder="name" 
+                class="form-control" 
+                name="name"/>
+                <input type="email" 
+                placeholder="email" 
+                class="form-control" 
+                name="email"/>
+                <textarea name="message"
+                placeholder="message"
+                class="form-control"
+                rows="5"
+                ></textarea>
+                </div>
+                <!-- button -->
+                <button type="submit" class="submit-btn btn">Submit Here</button>    
+            </form>
+        </article>
+    </div>
+  </section>
+    <!-- ending of contact form -->
+<!-- ending of contact section -->
+<!-- footer -->
+  <footer class="footer">
+    <div class="section-center">
+     <div class="social-icon">
+        <!-- social icon -->
+        <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+         </div>
+        <!-- end of socail icon -->
+     </div>
+     <h4 class="footer-text">&copy; 
+        <span id="date"></span>
+        <span class="company">Emotions BKK</span>
+        all right reserve
+     </h4>
+    </footer>
     <!-- JS code -->
-    <script src="app.js"></script>
-</body>
+  <script src="app.js"></script>
+ </body>
 </html>
