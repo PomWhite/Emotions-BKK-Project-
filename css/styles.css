@@ -621,7 +621,7 @@ footer
 }
 .social-icon {
     color: var(--clr-white);
-    font-size: 1.25rem;
+    font-size: 2rem;
     margin-right: 1rem;
     transition: var(--transition);
 }
@@ -635,5 +635,5 @@ footer
     font-weight: 400;
 }
 .company {
-    color: var(--ff-primary)
+    color: var(--clr-primary-light);
 }
